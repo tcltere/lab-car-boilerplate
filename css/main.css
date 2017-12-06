@@ -1,1 +1,119 @@
-/* Los estilos de tu proyecto */
+*{
+    box-sizing: border-box;
+    padding:0;
+    z-index: inherit;
+}
+body { 
+    padding-bottom: 70px;
+    width: 100%
+    height:auto;
+}
+nav a{
+    color:#000;
+}
+.container-fluid{
+    background-image:url(../assets/images/taxi.jpg);
+    height:100vh;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+
+
+}
+.jumbotron{
+    background-color: #FFB700 !important;
+    width: 50%;
+    margin: 12% 0; 
+    color: #fff;
+
+}
+.jumbotron1{
+    color: #fff;
+
+}
+.btn{
+   padding:3%;  
+}
+.page-phone{
+    background-color: #F7B617;
+    height: auto;
+    color: #FFF;
+    padding: 2%;
+    padding-left: 00;
+
+}
+.phone{
+    margin-left: 80px;
+    padding: 5%;
+}
+.container2{
+    margin: 2% 0;
+    padding: 0px;
+    margin: 3px 0 0 0;
+    border-top: 1px solid #FFF;
+    border: 1px solid #FFF;
+    width:70%;
+    
+}
+
+.page-conductor{
+
+    background-image: url(../assets/images/conduce.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    color: #000;
+    width: 100%;
+
+
+}
+.conductor{
+    background-color: rgba(0,0,0, 0.5);
+    padding:5% 0 3%;
+    height: 40vh;
+
+
+}
+
+.page-mapa{
+    background-color: #F7B617;
+    height: auto;
+    color: #FFF;
+    padding: 7%;
+    padding-left: 10%;
+
+
+}
+
+input{
+    background-color: transparent;
+    margin:2%;
+    border-radius:5% solid #fff;
+
+}
+footer{
+    background-color: #2B2B2B;
+    padding-top: 8%;
+    padding-bottom: 10%;
+
+}
+.pie-de-pagina{
+    
+    height: auto;
+    color: #FFF;
+    padding: 5%;
+    
+    
+}
+h5{
+    color: #fff !important;
+    margin-left: 20px;
+}
+
+.logo2{
+    margin-left: 20px;
+}
+
+
+
